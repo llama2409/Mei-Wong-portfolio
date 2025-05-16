@@ -208,7 +208,7 @@
 
     <!-- contact section -->
     <footer id="contact" class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-12 text-center my-4">
           <h2 class="display-5">Contact</h2>
           <p class="mt-4">
@@ -219,7 +219,30 @@
             can work together to create something amazing!
           </p>
         </div>
-        <div class="col-12 col-md-10 col-lg-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, commodi explicabo modi autem accusantium totam vitae esse voluptate reprehenderit illo fugit corporis ipsum quae cum doloremque ab repellendus rem sapiente!</div>
+        <div class="col-12 col-md-10 col-lg-8">
+          <!-- form -->
+          <form class="row g-3">
+                    <div class="col-lg-4">
+                        <label for="full-name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="full-name">
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="phonenumber" class="form-label">Phone number</label>
+                        <input type="number" class="form-control" id="phonenumber">
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+        </div>
       </div>
     </footer>
 
